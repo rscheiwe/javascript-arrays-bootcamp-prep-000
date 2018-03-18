@@ -9,3 +9,11 @@ function addElementToBeginningOfArray (array, element) {
 function destructiveAddElementToBeginningOfArray(array, element) {
   return array.unshift(element)
 }
+
+function addElementToEndOfArray(array, element) {
+  return [...array, element]
+}
+
+function destructiveAddElementToEndOfArray(array, element) {
+  return array.push(element)
+}
